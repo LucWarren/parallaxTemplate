@@ -104,6 +104,9 @@ by anchoring the transform-origin and perspective-origin to the right hand side 
   }
   #group1 .parallax__layer--base {
     background: rgb(102,204,102);
+    background-image: url(./group1.jpg);
+    background-size:100%;
+
   }
 
   #group2 {
@@ -111,13 +114,21 @@ by anchoring the transform-origin and perspective-origin to the right hand side 
   }
   #group2 .parallax__layer--back {
     background: rgb(123,210,102);
+    background-image: url(./group2.jpg);
+    background-size: 100%;
   }
+/*  #group2 .parallax__layer--base {
+    background: rgb(123,210,102) ;
+    z-index:-2;
+  }*/
 
   #group3 {
     z-index: 4; /* slide over group 2 and 4 */
   }
   #group3 .parallax__layer--base {
     background: rgb(153,216,101);
+    background-image: url(./group3.jpg);
+    background-size: 100% 100%;
   }
 
   #group4 {
